@@ -21,3 +21,12 @@ c. Muudatuste ajaloo järgimine:
 git log
 git show commit_hash
 
+4. Remote Github.com
+
+a. loo Github.com lehel repositoorium
+
+b. loo ühendus githubi repositooriumiga
+git remote add origin https://github.com/helou1234/skripti_alused.git
+
+c. [iga muutatuse korral] lükka lokaalne ajalugu githubi, et iga muudatus oleks githubis olemas
+git push -u origin master
