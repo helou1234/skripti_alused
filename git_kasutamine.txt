@@ -1,4 +1,4 @@
-1. paigaldamine
+1. Paigaldamine
 
 apt install git
 
@@ -7,4 +7,17 @@ git config --global user.name "Helena Õunapuu"
 git config --global user.email helena.ounapuu@khk.ee
 git config --global core.editor nano
 
+3. Kasutamine
+
+a. AINULT ÜKS KORD giti skriptide hoidmise kataloogis kasutada käsk 
+git init
+
+b. Iga failiga:
+git status 
+git add failinimi
+git commit -m "muudatusekirjeldus"
+
+c. Muudatuste ajaloo järgimine:
+git log
+git show commit_hash
 
