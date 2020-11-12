@@ -1,0 +1,10 @@
+1. paigaldamine
+
+apt install git
+
+2. seadistamine
+git config --global user.name "Helena Õunapuu"
+git config --global user.email helena.ounapuu@khk.ee
+git config --global core.editor nano
+
+
