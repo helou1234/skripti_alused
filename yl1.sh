@@ -1,5 +1,8 @@
 #!/bin/bash
 #
 #**************Selle skriptiga kuvan kasutajale teksti koos tema kasutajanimega**********
-kasutaja=`hostname`
+echo
+echo
+kasutaja=`whoami`
 echo "Tere, $kasutaja!"
+echo
